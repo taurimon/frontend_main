@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Expense } from 'src/Expense';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  expenses: Expense[] = [];
   title = 'task';
 }
