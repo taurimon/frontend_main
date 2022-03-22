@@ -1,0 +1,11 @@
+<div *ngIf="expense?.description else template">
+    <h2>{{expense?.name}}</h2>
+    <p>id: {{expense?.id}}</p>
+    <p>Amount: {{expense?.amount}}</p>
+    <p>Description: {{expense?.description}}</p>
+  </div>
+  
+  <ng-template #template>
+    <h2>Error!</h2>
+    <p>Expense with description does not exist</p>
+  </ng-template>

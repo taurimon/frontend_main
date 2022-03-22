@@ -1,3 +1,19 @@
-<p>main</p>
 
-<app-expense-overview></app-expense-overview>
+<!-- <app-expense-overview></app-expense-overview>
+
+<app-expense-details></app-expense-details> -->
+
+
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="container">
+                <h2>BUDGET APP</h2>
+                <a routerLink="/" class="list-group-item list-group-item-action p-3">Home</a>
+                <a routerLink="/expenses" class="list-group-item list-group-item-action p-3">Expenses</a>
+        </div>
+        <div class="newcontent">
+            <router-outlet></router-outlet>
+        </div>  
+    </body>
+</html>

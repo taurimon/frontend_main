@@ -21,6 +21,7 @@ export class ExpenseOverviewComponent implements OnInit {
   constructor(private bservice: BudgetService) { }
 
   ngOnInit(): void {
+    this.getInfoFromService1();
   }
 
 }

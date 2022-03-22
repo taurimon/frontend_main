@@ -1,0 +1,13 @@
+a {
+    text-decoration: none;
+}
+
+.table {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        background: gray;
+        padding: 5px 30px 5px 30px;
+        border: 1px solid black;
+}

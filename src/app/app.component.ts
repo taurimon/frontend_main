@@ -7,6 +7,5 @@ import { Expense } from 'src/Expense';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  expenses: Expense[] = [];
   title = 'task';
 }

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ExpensesListComponent } from './expenses-list/expenses-list.component';
 import { ExpenseOverviewComponent } from './expense-overview/expense-overview.component';
+import { ExpenseDetailsComponent } from './expense-details/expense-details.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ExpenseOverviewComponent } from './expense-overview/expense-overview.co
     HeaderComponent,
     HomeComponent,
     ExpensesListComponent,
-    ExpenseOverviewComponent
+    ExpenseOverviewComponent,
+    ExpenseDetailsComponent
   ],
   imports: [
     BrowserModule,
